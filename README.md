@@ -6,7 +6,7 @@
 
 module "wordpress" {
   app_name = "wordpress"   # we can use application name as a security group name which is much more easy to manage
-  source = "../basic_terraform4" # or give the github relative path 
+  source = "emrahilik/-aws-elb-asg-launch_template" # or give the github relative path 
   # if you want to use your module and deploy multiple region you have to go to your code 
   # and you have to work with your provider. 
   aws_region       = "us-east-1"
