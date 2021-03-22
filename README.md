@@ -1,0 +1,1 @@
+# aws-elb-asg-launch_template
